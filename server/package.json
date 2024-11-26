@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.13.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "formdata-node": "^6.0.3",
+    "grammy": "^1.30.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.3",
+    "node-fetch": "^3.3.2"
+  }
+}
